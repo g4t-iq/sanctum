@@ -1,25 +1,25 @@
 {
-    "name": "Harmony/sanctum",
-    "description": "Harmony Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
-    "keywords": ["Harmony", "sanctum", "auth"],
+    "name": "harmony-framework/sanctum",
+    "description": "harmony Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
+    "keywords": ["harmony", "sanctum", "auth"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/Harmony/sanctum/issues",
-        "source": "https://github.com/Harmony/sanctum"
+        "issues": "https://github.com/harmony/sanctum/issues",
+        "source": "https://github.com/harmony/sanctum"
     },
     "authors": [
         {
-            "name": "Taylor Otwell",
-            "email": "taylor@Harmony.com"
+            "name": "Hussein Alaa",
+            "email": "hussein@harmony-framework.com"
         }
     ],
     "require": {
         "php": "^8.0.2",
         "ext-json": "*",
-        "G4T/console": "^9.21|^10.0",
-        "G4T/contracts": "^9.21|^10.0",
-        "G4T/database": "^9.21|^10.0",
-        "G4T/support": "^9.21|^10.0"
+        "g4t/console": "^9.21|^10.0",
+        "g4t/contracts": "^9.21|^10.0",
+        "g4t/database": "^9.21|^10.0",
+        "g4t/support": "^9.21|^10.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.0",
@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Harmony\\Sanctum\\": "src/"
+            "harmony\\Sanctum\\": "src/"
         }
     },
     "autoload-dev": {
@@ -43,7 +43,7 @@
         "branch-alias": {
             "dev-master": "3.x-dev"
         },
-        "Harmony": {
+        "harmony": {
             "providers": [
                 "Harmony\\Sanctum\\SanctumServiceProvider"
             ]
