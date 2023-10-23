@@ -1,6 +1,6 @@
 <?php
 
-namespace Harmony\Sanctum\Contracts;
+namespace Tune\Sanctum\Contracts;
 
 interface HasAbilities
 {

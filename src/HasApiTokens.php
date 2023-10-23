@@ -1,6 +1,6 @@
 <?php
 
-namespace Harmony\Sanctum;
+namespace Tune\Sanctum;
 
 use DateTimeInterface;
 use G4T\Support\Str;
@@ -10,7 +10,7 @@ trait HasApiTokens
     /**
      * The access token the user is using for the current request.
      *
-     * @var \Harmony\Sanctum\Contracts\HasAbilities
+     * @var \Tune\Sanctum\Contracts\HasAbilities
      */
     protected $accessToken;
 
@@ -41,7 +41,7 @@ trait HasApiTokens
      * @param  string  $name
      * @param  array  $abilities
      * @param  \DateTimeInterface|null  $expiresAt
-     * @return \Harmony\Sanctum\NewAccessToken
+     * @return \Tune\Sanctum\NewAccessToken
      */
     public function createToken(string $name, array $abilities = ['*'], DateTimeInterface $expiresAt = null)
     {
@@ -65,7 +65,7 @@ trait HasApiTokens
     /**
      * Get the access token currently associated with the user.
      *
-     * @return \Harmony\Sanctum\Contracts\HasAbilities
+     * @return \Tune\Sanctum\Contracts\HasAbilities
      */
     public function currentAccessToken()
     {
@@ -75,7 +75,7 @@ trait HasApiTokens
     /**
      * Set the current access token for the user.
      *
-     * @param  \Harmony\Sanctum\Contracts\HasAbilities  $accessToken
+     * @param  \Tune\Sanctum\Contracts\HasAbilities  $accessToken
      * @return $this
      */
     public function withAccessToken($accessToken)

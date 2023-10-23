@@ -1,9 +1,9 @@
 <?php
 
-namespace Harmony\Sanctum\Http\Middleware;
+namespace Tune\Sanctum\Http\Middleware;
 
 use G4T\Auth\AuthenticationException;
-use Harmony\Sanctum\Exceptions\MissingAbilityException;
+use Tune\Sanctum\Exceptions\MissingAbilityException;
 
 class CheckForAnyAbility
 {
@@ -15,7 +15,7 @@ class CheckForAnyAbility
      * @param  mixed  ...$abilities
      * @return \G4T\Http\Response
      *
-     * @throws \G4T\Auth\AuthenticationException|\Harmony\Sanctum\Exceptions\MissingAbilityException
+     * @throws \G4T\Auth\AuthenticationException|\Tune\Sanctum\Exceptions\MissingAbilityException
      */
     public function handle($request, $next, ...$abilities)
     {

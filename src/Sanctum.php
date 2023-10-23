@@ -1,6 +1,6 @@
 <?php
 
-namespace Harmony\Sanctum;
+namespace Tune\Sanctum;
 
 use Mockery;
 
@@ -11,7 +11,7 @@ class Sanctum
      *
      * @var string
      */
-    public static $personalAccessTokenModel = 'Harmony\\Sanctum\\PersonalAccessToken';
+    public static $personalAccessTokenModel = 'Tune\\Sanctum\\PersonalAccessToken';
 
     /**
      * A callback that can get the token from the request.
@@ -49,7 +49,7 @@ class Sanctum
     /**
      * Set the current user for the application with the given abilities.
      *
-     * @param  \G4T\Contracts\Auth\Authenticatable|\Harmony\Sanctum\HasApiTokens  $user
+     * @param  \G4T\Contracts\Auth\Authenticatable|\Tune\Sanctum\HasApiTokens  $user
      * @param  array  $abilities
      * @param  string  $guard
      * @return \G4T\Contracts\Auth\Authenticatable

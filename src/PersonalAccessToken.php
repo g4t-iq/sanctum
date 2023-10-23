@@ -1,9 +1,9 @@
 <?php
 
-namespace Harmony\Sanctum;
+namespace Tune\Sanctum;
 
 use G4T\Database\Eloquent\Model;
-use Harmony\Sanctum\Contracts\HasAbilities;
+use Tune\Sanctum\Contracts\HasAbilities;
 
 class PersonalAccessToken extends Model implements HasAbilities
 {

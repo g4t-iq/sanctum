@@ -1,2 +1,2 @@
 providers:
-  - Harmony\Sanctum\SanctumServiceProvider
+  - Tune\Sanctum\SanctumServiceProvider

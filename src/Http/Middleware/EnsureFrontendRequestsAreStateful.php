@@ -1,6 +1,6 @@
 <?php
 
-namespace Harmony\Sanctum\Http\Middleware;
+namespace Tune\Sanctum\Http\Middleware;
 
 use G4T\Routing\Pipeline;
 use G4T\Support\Collection;

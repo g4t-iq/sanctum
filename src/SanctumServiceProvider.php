@@ -1,15 +1,15 @@
 <?php
 
-namespace Harmony\Sanctum;
+namespace Tune\Sanctum;
 
 use G4T\Auth\RequestGuard;
 use G4T\Contracts\Http\Kernel;
 use G4T\Support\Facades\Auth;
 use G4T\Support\Facades\Route;
 use G4T\Support\ServiceProvider;
-use Harmony\Sanctum\Console\Commands\PruneExpired;
-use Harmony\Sanctum\Http\Controllers\CsrfCookieController;
-use Harmony\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful;
+use Tune\Sanctum\Console\Commands\PruneExpired;
+use Tune\Sanctum\Http\Controllers\CsrfCookieController;
+use Tune\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful;
 
 class SanctumServiceProvider extends ServiceProvider
 {

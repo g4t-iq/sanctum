@@ -1,6 +1,6 @@
 <?php
 
-use Harmony\Sanctum\Sanctum;
+use Tune\Sanctum\Sanctum;
 
 return [
 
@@ -75,7 +75,7 @@ return [
     */
 
     'middleware' => [
-        'authenticate_session' => Harmony\Sanctum\Http\Middleware\AuthenticateSession::class,
+        'authenticate_session' => Tune\Sanctum\Http\Middleware\AuthenticateSession::class,
         'encrypt_cookies' => App\Http\Middleware\EncryptCookies::class,
         'verify_csrf_token' => App\Http\Middleware\VerifyCsrfToken::class,
     ],

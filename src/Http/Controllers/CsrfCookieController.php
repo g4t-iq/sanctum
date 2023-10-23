@@ -1,6 +1,6 @@
 <?php
 
-namespace Harmony\Sanctum\Http\Controllers;
+namespace Tune\Sanctum\Http\Controllers;
 
 use G4T\Http\JsonResponse;
 use G4T\Http\Request;

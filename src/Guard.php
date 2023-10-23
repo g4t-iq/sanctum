@@ -1,11 +1,11 @@
 <?php
 
-namespace Harmony\Sanctum;
+namespace Tune\Sanctum;
 
 use G4T\Contracts\Auth\Factory as AuthFactory;
 use G4T\Http\Request;
 use G4T\Support\Arr;
-use Harmony\Sanctum\Events\TokenAuthenticated;
+use Tune\Sanctum\Events\TokenAuthenticated;
 
 class Guard
 {

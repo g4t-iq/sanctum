@@ -1,6 +1,6 @@
 <?php
 
-namespace Harmony\Sanctum\Exceptions;
+namespace Tune\Sanctum\Exceptions;
 
 use G4T\Auth\Access\AuthorizationException;
 use G4T\Support\Arr;

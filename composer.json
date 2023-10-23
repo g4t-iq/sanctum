@@ -1,16 +1,16 @@
 {
-    "name": "harmony-framework/sanctum",
-    "description": "harmony Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
-    "keywords": ["harmony", "sanctum", "auth"],
+    "name": "tune-framework/sanctum",
+    "description": "tune Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
+    "keywords": ["tune", "sanctum", "auth"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/harmony/sanctum/issues",
-        "source": "https://github.com/harmony/sanctum"
+        "issues": "https://github.com/tune/sanctum/issues",
+        "source": "https://github.com/tune/sanctum"
     },
     "authors": [
         {
             "name": "Hussein Alaa",
-            "email": "hussein@harmony-framework.com"
+            "email": "hussein@tune-framework.com"
         }
     ],
     "require": {
@@ -34,7 +34,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Harmony\\Sanctum\\Tests\\": "tests/",
+            "Tune\\Sanctum\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/",
             "Workbench\\Database\\Factories\\": "workbench/database/factories/"
         }
@@ -43,9 +43,9 @@
         "branch-alias": {
             "dev-master": "3.x-dev"
         },
-        "harmony": {
+        "tune": {
             "providers": [
-                "Harmony\\Sanctum\\SanctumServiceProvider"
+                "Tune\\Sanctum\\SanctumServiceProvider"
             ]
         }
     },

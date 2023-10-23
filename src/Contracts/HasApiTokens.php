@@ -1,6 +1,6 @@
 <?php
 
-namespace Harmony\Sanctum\Contracts;
+namespace Tune\Sanctum\Contracts;
 
 interface HasApiTokens
 {
@@ -24,22 +24,22 @@ interface HasApiTokens
      *
      * @param  string  $name
      * @param  array  $abilities
-     * @return \Harmony\Sanctum\NewAccessToken
+     * @return \Tune\Sanctum\NewAccessToken
      */
     public function createToken(string $name, array $abilities = ['*']);
 
     /**
      * Get the access token currently associated with the user.
      *
-     * @return \Harmony\Sanctum\Contracts\HasAbilities
+     * @return \Tune\Sanctum\Contracts\HasAbilities
      */
     public function currentAccessToken();
 
     /**
      * Set the current access token for the user.
      *
-     * @param  \Harmony\Sanctum\Contracts\HasAbilities  $accessToken
-     * @return \Harmony\Sanctum\Contracts\HasApiTokens
+     * @param  \Tune\Sanctum\Contracts\HasAbilities  $accessToken
+     * @return \Tune\Sanctum\Contracts\HasApiTokens
      */
     public function withAccessToken($accessToken);
 }

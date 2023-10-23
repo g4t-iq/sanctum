@@ -1,6 +1,6 @@
 <?php
 
-namespace Harmony\Sanctum\Http\Middleware;
+namespace Tune\Sanctum\Http\Middleware;
 
 use Closure;
 use G4T\Auth\AuthenticationException;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Harmony\Sanctum;
+namespace Tune\Sanctum;
 
 use G4T\Contracts\Support\Arrayable;
 use G4T\Contracts\Support\Jsonable;
@@ -10,7 +10,7 @@ class NewAccessToken implements Arrayable, Jsonable
     /**
      * The access token instance.
      *
-     * @var \Harmony\Sanctum\PersonalAccessToken
+     * @var \Tune\Sanctum\PersonalAccessToken
      */
     public $accessToken;
 
@@ -24,7 +24,7 @@ class NewAccessToken implements Arrayable, Jsonable
     /**
      * Create a new access token result.
      *
-     * @param  \Harmony\Sanctum\PersonalAccessToken  $accessToken
+     * @param  \Tune\Sanctum\PersonalAccessToken  $accessToken
      * @param  string  $plainTextToken
      * @return void
      */

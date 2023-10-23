@@ -1,20 +1,20 @@
 <?php
 
-namespace Harmony\Sanctum\Events;
+namespace Tune\Sanctum\Events;
 
 class TokenAuthenticated
 {
     /**
      * The personal access token that was authenticated.
      *
-     * @var \Harmony\Sanctum\PersonalAccessToken
+     * @var \Tune\Sanctum\PersonalAccessToken
      */
     public $token;
 
     /**
      * Create a new event instance.
      *
-     * @param  \Harmony\Sanctum\PersonalAccessToken  $token
+     * @param  \Tune\Sanctum\PersonalAccessToken  $token
      * @return void
      */
     public function __construct($token)

@@ -1,8 +1,8 @@
 <?php
 
-namespace Harmony\Sanctum;
+namespace Tune\Sanctum;
 
-use Harmony\Sanctum\Contracts\HasAbilities;
+use Tune\Sanctum\Contracts\HasAbilities;
 
 class TransientToken implements HasAbilities
 {

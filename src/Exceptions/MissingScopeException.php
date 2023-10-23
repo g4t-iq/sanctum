@@ -1,13 +1,13 @@
 <?php
 
-namespace Harmony\Sanctum\Exceptions;
+namespace Tune\Sanctum\Exceptions;
 
 use G4T\Auth\Access\AuthorizationException;
 use G4T\Support\Arr;
 
 /**
  * @deprecated
- * @see \Harmony\Sanctum\Exceptions\MissingAbilityException
+ * @see \Tune\Sanctum\Exceptions\MissingAbilityException
  */
 class MissingScopeException extends AuthorizationException
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Harmony\Sanctum\Console\Commands;
+namespace Tune\Sanctum\Console\Commands;
 
 use G4T\Console\Command;
-use Harmony\Sanctum\Sanctum;
+use Tune\Sanctum\Sanctum;
 
 class PruneExpired extends Command
 {
