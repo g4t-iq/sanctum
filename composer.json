@@ -1,0 +1,57 @@
+{
+    "name": "Harmony/sanctum",
+    "description": "Harmony Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
+    "keywords": ["Harmony", "sanctum", "auth"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/Harmony/sanctum/issues",
+        "source": "https://github.com/Harmony/sanctum"
+    },
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@Harmony.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "ext-json": "*",
+        "G4T/console": "^9.21|^10.0",
+        "G4T/contracts": "^9.21|^10.0",
+        "G4T/database": "^9.21|^10.0",
+        "G4T/support": "^9.21|^10.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.0",
+        "orchestra/testbench": "^7.28.2|^8.8.3",
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Harmony\\Sanctum\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Harmony\\Sanctum\\Tests\\": "tests/",
+            "Workbench\\App\\": "workbench/app/",
+            "Workbench\\Database\\Factories\\": "workbench/database/factories/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.x-dev"
+        },
+        "Harmony": {
+            "providers": [
+                "Harmony\\Sanctum\\SanctumServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

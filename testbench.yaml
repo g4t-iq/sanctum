@@ -1,0 +1,2 @@
+providers:
+  - Harmony\Sanctum\SanctumServiceProvider
